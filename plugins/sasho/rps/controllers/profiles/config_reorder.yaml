@@ -1,0 +1,4 @@
+title: Profiles
+modelClass: Sasho\Rps\Models\Profile
+toolbar:
+    buttons: reorder_toolbar

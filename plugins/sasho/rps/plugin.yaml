@@ -1,0 +1,16 @@
+plugin:
+    name: 'sasho.rps::lang.plugin.name'
+    description: 'sasho.rps::lang.plugin.description'
+    author: Sasho
+    icon: oc-icon-bomb
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: RPS
+        url: sasho/rps/games
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Profile
+                url: sasho/rps/profiles
+                icon: icon-user

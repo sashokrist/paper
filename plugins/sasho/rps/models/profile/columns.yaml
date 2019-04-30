@@ -1,0 +1,31 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    user_id:
+        label: u_id
+        type: number
+        searchable: true
+        sortable: true
+    game_id:
+        label: g_id
+        type: number
+        searchable: true
+        sortable: true
+    user_choice:
+        label: user_c
+        type: text
+        searchable: true
+        sortable: true
+    pc_choise:
+        label: pc_c
+        type: text
+        searchable: true
+        sortable: true
+    result:
+        label: result
+        type: text
+        searchable: true
+        sortable: true

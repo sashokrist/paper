@@ -1,0 +1,14 @@
+columns:
+    name:
+        label: name
+        type: text
+        searchable: true
+        sortable: true
+    result:
+        label: result
+        type: text
+    created_at:
+        label: date
+        type: datetime
+        searchable: true
+        sortable: true

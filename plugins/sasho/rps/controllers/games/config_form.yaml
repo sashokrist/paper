@@ -1,0 +1,10 @@
+name: Games
+form: $/sasho/rps/models/game/fields.yaml
+modelClass: Sasho\Rps\Models\Game
+defaultRedirect: sasho/rps/games
+create:
+    redirect: 'sasho/rps/games/update/:id'
+    redirectClose: sasho/rps/games
+update:
+    redirect: sasho/rps/games
+    redirectClose: sasho/rps/games

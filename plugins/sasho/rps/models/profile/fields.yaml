@@ -1,0 +1,30 @@
+fields:
+    name:
+        label: name
+        span: left
+        type: text
+    game_id:
+        label: 'game id'
+        span: auto
+        type: number
+    user_id:
+        label: 'user id'
+        span: auto
+        type: number
+    result:
+        label: result
+        span: auto
+        type: text
+    pc_choice:
+        label: 'pc choice'
+        span: auto
+        type: text
+    user_choice:
+        label: 'user choice'
+        span: auto
+        type: text
+    datepicker1:
+        label: 'Date picker'
+        mode: datetime
+        span: auto
+        type: datepicker

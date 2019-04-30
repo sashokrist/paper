@@ -1,0 +1,13 @@
+1556655287a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:213:"<div id="footer">
+    <div class="container">
+        <hr />
+        <h2 class="text-center">the GREAT TOKEN</h2>
+        <p class="muted credit">&copy; 2013 - {{ "now"|date("Y") }} SJ.</p>
+    </div>
+</div>";s:5:"mtime";i:1556191567;s:6:"markup";s:213:"<div id="footer">
+    <div class="container">
+        <hr />
+        <h2 class="text-center">the GREAT TOKEN</h2>
+        <p class="muted credit">&copy; 2013 - {{ "now"|date("Y") }} SJ.</p>
+    </div>
+</div>";s:4:"code";N;}}

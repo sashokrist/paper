@@ -1,0 +1,17 @@
+1556298726a:1:{s:11:"profile.htm";a:11:{s:8:"fileName";s:11:"profile.htm";s:7:"content";s:243:"title = "profile"
+url = "/profile"
+layout = "default"
+is_hidden = 0
+
+[ueuser]
+type = "profile"
+maxItems = 5
+paramCode = "id"
+profilePage = "profile"
+template = "social"
+
+[session]
+security = "user"
+redirect = "user"
+==
+{% component 'ueuser' %}";s:5:"mtime";i:1556277769;s:6:"markup";s:24:"{% component 'ueuser' %}";s:4:"code";N;s:5:"title";s:7:"profile";s:3:"url";s:8:"/profile";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:6:"ueuser";a:5:{s:4:"type";s:7:"profile";s:8:"maxItems";s:1:"5";s:9:"paramCode";s:2:"id";s:11:"profilePage";s:7:"profile";s:8:"template";s:6:"social";}s:7:"session";a:2:{s:8:"security";s:4:"user";s:8:"redirect";s:4:"user";}}}

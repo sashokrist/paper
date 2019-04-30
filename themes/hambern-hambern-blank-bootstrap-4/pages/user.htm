@@ -1,0 +1,20 @@
+title = "user"
+url = "/user"
+layout = "default"
+is_hidden = 0
+
+[Clake\UserExtended\Components\Account account]
+redirect = "user"
+paramCode = "code"
+
+[session]
+security = "all"
+redirect = "user"
+==
+{% partial 'account::update' %}
+
+{% partial 'account::signup' %} 
+
+{% partial 'account::login' %} 
+
+{% partial 'account::logout' %}

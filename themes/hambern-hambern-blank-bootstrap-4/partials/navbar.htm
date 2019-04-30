@@ -1,0 +1,22 @@
+description = "Navigation bar"
+==
+<section id="navbar">
+	<nav class="navbar navbar-dark bg-primary">
+		<div class="container">
+			<a class="navbar-brand" href="{{ 'home'|page }}">the GREAT TOKEN</a>
+			<ul class="nav navbar-nav pull-xs-right">
+				<li class="nav-item{{ this.page.baseFileName == 'home' ? ' active' }}">
+					<a class="nav-link" href="{{ 'home'|page }}">Home</a>
+				</li>
+				{% if user %}
+					<li class="nav-item{{ this.page.baseFileName == 'game' ? ' active' }}">
+						<a class="nav-link" href="{{ 'game'|page }}">New Game</a>
+					</li>
+					<li ><a class="nav-item{% if this.page.id == 'login' %} active {% endif %}" data-request="onLogout" data-request-data="redirect: '/'">Sign out</a></li>
+				{% else %}
+					<li class="nav-item{% if this.page.id == 'user' %} active {% endif %}"><a href="{{ 'user'|page }}">Login or Register</a></li>
+				{% endif %}
+			</ul>
+		</div>
+	</nav>
+</section>

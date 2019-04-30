@@ -1,0 +1,13 @@
+fields:
+    name:
+        label: name
+        span: left
+        type: text
+    result:
+        label: result
+        span: right
+        type: text
+    created_at:
+        label: Date
+        span: auto
+        type: text

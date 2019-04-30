@@ -1,0 +1,30 @@
+title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+
+[session]
+security = "all"
+redirect = "home"
+==
+<div class="container">
+  <div id="t" class="flex-center position-ref full-height">
+    <div class="content">
+      <div class="title m-b-md">
+        Welcome To Rock, Paper Scissors!
+      </div>
+      <div>
+        {% if user %}
+          <h2>Hello {{ user.name }}</h2>
+          <img src="{{ user.avatar.thumb(80,auto) }}">
+          <a href="game" class="btn btn-primary">New Game</a>
+          <a href="statistic" class="btn btn-primary">Statistic</a>
+        {% else %}
+          <p>Nobody is logged in</p>
+          <a href="user" class="btn btn-primary">Login</a>
+          <a href="user" class="btn btn-primary">Register</a>
+        {% endif %}
+       </div>
+      </div>
+    </div>
+  </div>

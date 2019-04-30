@@ -1,0 +1,10 @@
+name: Profiles
+form: $/sasho/rps/models/profile/fields.yaml
+modelClass: Sasho\Rps\Models\Profile
+defaultRedirect: sasho/rps/profiles
+create:
+    redirect: 'sasho/rps/profiles/update/:id'
+    redirectClose: sasho/rps/profiles
+update:
+    redirect: sasho/rps/profiles
+    redirectClose: sasho/rps/profiles
